@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FormBasicDetails from './FormBasicDetails'
 
 export class UserForm extends Component {
     state = {
@@ -43,11 +44,13 @@ export class UserForm extends Component {
                 )
             case 2:
                 return (
-                    <FormPersonalDetails />
+                    <h2>FormPersonalDetails</h2>
+                    // <FormPersonalDetails />
                 )
             case 3:
                 return (
-                    <Confirm />
+                    <h2>Confirm</h2>
+                    // <Confirm />
                 )
         }
     }
