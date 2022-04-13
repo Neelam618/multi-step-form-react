@@ -74,7 +74,7 @@ export class Confirm extends Component {
                             </List>
                         </nav>
                     </Box>
-                    <Button variant="contained" onClick={this.continue}>Confirm</Button>
+                    <Button variant="contained" onClick={this.continue}>Confirm and continue</Button>
                     <Button style={{ marginLeft: '1em' }} variant="contained" color="inherit" onClick={this.back}>Back</Button>
                 </>
             </ThemeProvider>
