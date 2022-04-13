@@ -39,7 +39,7 @@ export class FormBasicDetails extends Component {
                             </Toolbar>
                         </AppBar>
                     </Box>
-                    <Box
+                    <Box style={{ margin: '3em auto' }}
                         component="form"
                         sx={{
                             '& > :not(style)': { m: 1, width: '25ch' },
@@ -52,7 +52,7 @@ export class FormBasicDetails extends Component {
                         />
                         <br />
                         <TextField
-                            label="Last Name" variant="standard" hintText="Enter Your Last Name" onChange={handleChange("lasttName")} defaultValue={values.lastName}
+                            label="Last Name" variant="standard" hintText="Enter Your Last Name" onChange={handleChange("lastName")} defaultValue={values.lastName}
                         />
                         <br />
                         <TextField

@@ -44,7 +44,7 @@ export class FormPersonalDetails extends Component {
                         </AppBar>
                     </Box>
                     <Box
-                        component="form"
+                        component="form" style={{ margin: '3em auto' }}
                         sx={{
                             '& > :not(style)': { m: 1, width: '25ch' },
                         }}
